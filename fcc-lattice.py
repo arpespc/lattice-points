@@ -9,11 +9,11 @@ import os
 num_a1 = 5                     #Make a1 a2 a3 range from 0 to 5
 num_a2 = 5                     #And you can change them
 num_a3 = 5
-def fixed_len(string):
-    if len(string) <= 10:
-        d_str =1 0-len(string)
-        for k in range(d_str+1):
-            string += ' '
+def fixed_len(string, max_length = 10):
+    if len(string) <= max_length:
+        d_str =max_length-len(string)
+        space_list = (d_str + 1) * " "
+        string += space_list
         return string
     else:
         print("Too Many Lattice Points!!!")
