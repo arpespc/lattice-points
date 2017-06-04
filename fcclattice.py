@@ -11,7 +11,7 @@ num_a2 = 5                     #And you can change them
 num_a3 = 5
 def fixed_len(string, max_length = 10):
     if len(string) <= max_length:
-        d_str =max_length-len(string)
+        d_str = max_length-len(string)
         space_list = (d_str + 1) * " "
         string += space_list
         return string
