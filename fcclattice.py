@@ -17,7 +17,7 @@ def fixed_len(string, max_length = 10):
         return string
     else:
         print("Too Many Lattice Points!!!")
-        return 
+        return string
 a1 = [a for a in range(num_a1)]
 a2 = [a for a in range(num_a2)]
 a3 = [a for a in range(num_a3)]
