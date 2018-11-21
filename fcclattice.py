@@ -16,8 +16,9 @@ def fixed_len(string, max_length = 10):
         string += space_list
         return string
     else:
-        print("Too Many Lattice Points!!!")
-        return string
+        print("Too Many Lattice Points!!!, only one space have been added to original string.")
+        print("but it works, just a little ugly")
+        return string + " "
 a1 = [a for a in range(num_a1)]
 a2 = [a for a in range(num_a2)]
 a3 = [a for a in range(num_a3)]
